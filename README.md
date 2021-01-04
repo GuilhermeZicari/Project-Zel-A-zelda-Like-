@@ -2,6 +2,8 @@
 
 Projeto desenvolvido para aprendizado em C# e do meu interesse em aprender a trabalhar com a Engine Unity
 
+FINAL BUILD COM .EXE para ser executado pode ser obtido em https://mega.nz/file/n4kiQJha#6-DFl3RNFXRATShvJwYbygPBqcqhT2kiEnS64_8olVo
+
 ![](https://github.com/GuilhermeZicari/Project-Zel-A-zelda-Like-/blob/main/Image4Read/Face.PNG)
 
 **Game Introduction**
