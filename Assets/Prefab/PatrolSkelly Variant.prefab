@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &823865830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8598859225953720112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18d12ac3ed9995442811e5d8fd74ad87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: {fileID: 11400000, guid: 8914585176a3f36488c47d1877d105f6, type: 2}
+  enemyName: 12
+  baseAttack: 2
+  moveSpeed: 4
+  currentState: 0
+  target: {fileID: 0}
+  chaseRadius: 4
+  attackRadius: 1
+  homePos: {fileID: 0}
+  anim: {fileID: 0}
+  myRigid: {fileID: 0}
+  path:
+  - {fileID: 0}
+  - {fileID: 0}
+  currentPoint: 0
+  currentGoal: {fileID: 0}
+  roundingDistance: 0.2
+--- !u!1001 &3420677758798195328
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6354008032895122864, guid: 485300e9ae3ea3b4185529c7224fc40c,
+        type: 3}
+      propertyPath: m_Name
+      value: PatrolSkelly
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354008032895122864, guid: 485300e9ae3ea3b4185529c7224fc40c,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 6354008032895122864, guid: 485300e9ae3ea3b4185529c7224fc40c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354008032895122872, guid: 485300e9ae3ea3b4185529c7224fc40c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354008032895122872, guid: 485300e9ae3ea3b4185529c7224fc40c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354008032895122872, guid: 485300e9ae3ea3b4185529c7224fc40c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354008032895122872, guid: 485300e9ae3ea3b4185529c7224fc40c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354008032895122872, guid: 485300e9ae3ea3b4185529c7224fc40c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354008032895122872, guid: 485300e9ae3ea3b4185529c7224fc40c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354008032895122872, guid: 485300e9ae3ea3b4185529c7224fc40c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354008032895122872, guid: 485300e9ae3ea3b4185529c7224fc40c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354008032895122872, guid: 485300e9ae3ea3b4185529c7224fc40c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354008032895122872, guid: 485300e9ae3ea3b4185529c7224fc40c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354008032895122872, guid: 485300e9ae3ea3b4185529c7224fc40c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6354008032895122866, guid: 485300e9ae3ea3b4185529c7224fc40c, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 485300e9ae3ea3b4185529c7224fc40c, type: 3}
+--- !u!1 &8598859225953720112 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6354008032895122864, guid: 485300e9ae3ea3b4185529c7224fc40c,
+    type: 3}
+  m_PrefabInstance: {fileID: 3420677758798195328}
+  m_PrefabAsset: {fileID: 0}
